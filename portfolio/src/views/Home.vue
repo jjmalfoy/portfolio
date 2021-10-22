@@ -11,7 +11,7 @@
             <router-link class="link" to="/contact">Contact</router-link>
           </div>
         </div>
-          <!-- <hero-image></hero-image>  -->
+          <hero />
       </div>
     </div>
   </div>
@@ -19,10 +19,12 @@
 
 <script>
 // @ is an alias to /src
+import Hero from '../components/hero/index.vue'
 
 export default {
   name: 'Home',
   components: {
+    hero: Hero,
   }
 }
 </script>
