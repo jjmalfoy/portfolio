@@ -19,21 +19,17 @@
       </v-list-item-content>
       </v-list-item>  
       <v-card-actions>
-      <v-btn
-        outlined
-        rounded
-        text
-      >
-        Button
-      </v-btn>
+      <button-hero></button-hero>
+      <button-hero></button-hero>
       </v-card-actions>
     </v-card>
   </div>
 </template>
 
 <script>
+import ButtonHero from '../buttons/button-hero.vue'
 
 export default {
-
+  components: { ButtonHero },
 }
 </script>
